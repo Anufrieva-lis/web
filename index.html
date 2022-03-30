@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css\normalize.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Recipes-Cooking Website</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <a href="">Recipes</a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="/main_page">Главная</a></li>
+          <li><a href="/Recipes">Рецепты</a></li>
+          <li><a href="/Favogites">Избранное</a></li>
+        </ul>
+      </div>
+      <div class="user">
+        <img src="image/login.svg" alt="User" class="button-icon" />
+        <a href="/auth">Войти </a>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="content_l">
+        <h1 class="promo-title">Готовь и делись рецептами </h1>
+        <p class="promo-text"> Никаких кулинарных книг и блокнотов! Храни все любимые рецепты в одном месте. </p>
+        <button class="button">
+          <img src="image/plus.svg" alt="Pluse" class="button-icon" />
+          <span class="button-text"> Добавить рецепт </span>
+        </button>
+        <button class="button_user">
+          <span class="button-text"> Войти </span>
+        </button>
+      </div>
+      <div class="content_r">
+        <img src="image/img.png" alt="Recipes-Cooking">
+      </div>
+    </div>
+
+    <div class="main">
+      <h2 class="main-title"> Умная сортировка по тегам </h2>
+      <p class="main-text"> Добавляй рецепты и указывай наиболее популярные теги. Это позволит быстро находить любые
+        категории. </p>
+
+      <div class="card-list">
+        <div class="card">
+          <img src="image/ic-menu.svg" alt="menu" class card-image />
+          <h3 class="card-title"> Простые блюда </h3>
+          <p class="card-text"> Время приготвления таких блюд не более 1 часа </p>
+        </div>
+
+        <div class="card">
+          <img src="image/ic-cook.svg" alt="children" class card-image />
+          <h3 class="card-title"> Детское </h3>
+          <p class="card-text"> Самые полезные блюда которые можно детям любого возраста </p>
+        </div>
+
+        <div class="card">
+          <img src="image/ic-chef.svg" alt="chef" class card-image />
+          <h3 class="card-title"> От шеф-поваров </h3>
+          <p class="card-text"> Требуют умения, времени и терпения, зато как в ресторане </p>
+        </div>
+
+        <div class="card">
+          <img src="image/hb.svg" alt="hb" class card-image />
+          <h3 class="card-title"> На праздник </h3>
+          <p class="card-text"> Чем удивить гостей, чтобы все были сыты за праздничным столом </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="recipes">
+      <div class="recipes-img">
+        <img src="image/soup.png" alt="soup">
+      </div>
+      <div class="recipe-text">
+        <div class="recipe-header">
+          <div class="like">
+            <img src="image/heart.svg" alt="like">
+            <span> 365 </span>
+          </div>
+          <div class="timer">
+            <img src="image/timer.svg" alt="timer">
+            <span> 35 минут </span>
+          </div>
+        </div>
+        <h2>Тыквенный супчик на кокосовом молоке</h2>
+        <p> Если у вас осталась тыква, и вы не знаете что с ней сделать, то это решение для вас! Ароматный, согревающий
+          суп-пюре на
+          кокосовом молоке. Можно даже в Пост! </p>
+      </div>
+    </div>
+
+
+  </div>
+</body>
